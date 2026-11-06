@@ -1,0 +1,46 @@
+# Virtual Environment
+retinal_env/
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data / Dataset (too large for git)
+data/
+*.tif
+*.gif
+*.png
+*.jpg
+*.jpeg
+
+# Trained model weights (large binary files)
+Trained models/
+*.hdf5
+*.h5
+*.weights
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temp
+*.tmp
